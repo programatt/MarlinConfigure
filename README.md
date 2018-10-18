@@ -11,7 +11,7 @@ https://getstream.io/blog/takeaways-on-building-a-react-based-app-with-electron/
 * Automated testing and documentation generation because it's good and I want to improve myself.
 * Workspace stored on local file system. Ability to git checkout branches of official marlin repo or your own repo and make different profiles that can be quickly compiled/flashed to a board using the arduino cli https://github.com/arduino/arduino-cli
 * Quick way to visualize differences between profile changes without having to rely on just descriptions in text
-* Library of parts (motors, sensors, boards, fans, thingiverse parts, etc) with sensible default values for them? AKA known starting configuration values to try out. For example. I'm adding an SN-04 sensor to the Anet A8 using this mount from thingiverse. I know the offset from the hotend is X,Y,Z
+* Library of parts (motors, sensors, boards, fans, thingiverse parts, etc) with sensible default values for them? AKA known starting configuration values to try out. For example. I'm adding an SN-04 sensor to the Anet A8 using this mount from thingiverse. I know the offset from the hotend is X,Y,Z and I need to enable Flags A,B,C to enable auto bed leveling.
 
 ### Things to Figure out
 * How to write to filesystem and use git from node
