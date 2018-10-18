@@ -21,6 +21,7 @@ https://getstream.io/blog/takeaways-on-building-a-react-based-app-with-electron/
 * Quick way to visualize differences between profile changes without having to rely on just descriptions in text
 * Library of parts (motors, sensors, boards, fans, thingiverse parts, etc) with sensible default values for them? AKA known starting configuration values to try out. For example. I'm adding an SN-04 sensor to the stock Anet A8 using this mount from thingiverse. I know the offset from the hotend is X,Y,Z and I need to enable Flags A,B,C to enable auto bed leveling.
 * Detecting changes that would result in a *Having a Bad Time*(TM) due to conflicts or things that will obviously break the machine.
+* Having a way to automatically setup a set of changes based on a frequently changing git branch. E.g. I have a go to config for my Anet A8 and i want to have it applied every time i chose to for the nightly branch of Marlin 2.x for my Archim board or something so i can flash quickly and test with it. 
 * Wizard like interface for tuning things like motors or z offsets that can write the changes to the eeprom.
 
 
