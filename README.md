@@ -2,7 +2,15 @@
 Cross Platform GUI for managing Marlin Firmware configurations and flashing the Marlin Firmware onto devices
 
 ### Why this exists
-The 3d printing world is obviously a large group of hackers, makers, etc. But, there is a need for better tooling that can get newer, unexperienced people off the ground running. A visual tool that does a lot of the grunt work around default values and simple mods for common printers will allow less experienced people to successfully change how their setup functions. 
+The 3d printing world is obviously a large group of hackers, makers, etc. But, there is a need for better tooling that can get newer, unexperienced people off the ground running. A visual tool that does a lot of the grunt work around default values and simple mods for common printers will allow less experienced people to successfully change how their setup functions. Ideas from Ideas section might make the dev process for Marlin itself easier to do.
+
+### POC
+* working electron/create-react-app that builds on travis ci (convert to open source so its free)
+* unit test framework setup
+* documentation setup with tutorial
+* ability to clone official Marlin repo branch and create a configuration from example folder that's saved locally with a custom name
+* ability to use arduino cli (if possible) to compile/flash or take configuration and use arduino ide then to do same.
+* simple set of changes available (can set bed dimensions or something like that)
 
 ### Ideas
 * Cross platform tool (OSX, Linux, Windows) so leaning towards Electron and React (create-react-app) due to familiarity.
