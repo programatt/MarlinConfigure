@@ -3,6 +3,7 @@
 # dependencies
 marlinconfigure/node_modules/
 marlinconfigure/build/
+/node_modules
 
 # testing
 /coverage
