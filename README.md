@@ -23,4 +23,5 @@ https://getstream.io/blog/takeaways-on-building-a-react-based-app-with-electron/
 * Common set of Value operations that change known parameters (bed size, Z height, extrusion steps, acceleration, jerk, etc)
 * How to expose the guts when existing patterns aren't enough. Still allow people to get to the raw configuration when necessary in a way that doesn't just make them.
 * Preventing link rot for things like the parts catalog and thingiverse things.
-* Github auth
+* Github auth and off device persistence? Use a github repo or dropbox or something?
+* UI theme/standards
