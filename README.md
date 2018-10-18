@@ -22,7 +22,7 @@ https://getstream.io/blog/takeaways-on-building-a-react-based-app-with-electron/
 * SQLite db for data?
 * How to evolve existing configurations (if at all) when marlin changes come out. Probably will just need a way to detect that the branch the profile is based on doesn't compile? Might be very challenging!
 * What's the mechanism for codegen once the changes are configured? Right now probably mapping "features" to a regex that changes the Configuration.h and Configuration_adv.h? Probably will need take a look at the examples folder to see what things are being changed for diff printers.
-* Is the arduino cli viable or will end result still need arduino IDE to compile/flash?
+* Is the arduino cli viable or will end result still need arduino IDE to compile/flash. If yes how to manage which add-ons need to be installed for different boards/parts?
 * Common set of Enable/Disable operations that just take simple boolean flag and know what to comment out/uncomment based on what it is
 * Common set of Value operations that change parameters in relatively stable ways that can be automated (bed size, Z height, extrusion steps, acceleration, jerk, etc)
 * How to expose the guts when existing patterns aren't enough. Still allow people to get to the raw configuration when necessary in a way that doesn't just make them.
