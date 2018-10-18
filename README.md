@@ -16,7 +16,7 @@ https://getstream.io/blog/takeaways-on-building-a-react-based-app-with-electron/
 ### Things to Figure out
 * How to write to filesystem and use git from node
 * SQLite db for data?
-* How to evolve existing configurations (if at all) when marlin changes come out. Probably will just need a way to 
+* How to evolve existing configurations (if at all) when marlin changes come out. Probably will just need a way to detect that the branch the profile is based on doesn't compile? Might be very challenging!
 * What's the mechanism for codegen once the changes are configured? Right now probably mapping "features" to a regex that changes the Configuration.h and Configuration_adv.h? Probably will need take a look at the examples folder to see what things are being changed for diff printers.
 * Is the arduino cli viable or will end result still need arduino IDE to compile/flash?
 * Common set of Enable/Disable operations that just take simple boolean flag and know what to comment out/uncomment based on what it is
