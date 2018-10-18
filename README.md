@@ -1,5 +1,5 @@
 # MarlinConfigure
-Cross Platform GUI for configuring and flashing the Marlin Firmware onto devices
+Cross Platform GUI for managing Marlin Firmware configurations and flashing the Marlin Firmware onto devices
 
 ### Why this exists
 The 3d printing world is obviously a large group of hackers, makers, etc. But, there is a need for better tooling that can get newer, unexperienced people off the ground running. A visual tool that does a lot of the grunt work around default values and simple mods for common printers will allow less experienced people to successfully change how their setup functions. 
