@@ -21,9 +21,11 @@ https://getstream.io/blog/takeaways-on-building-a-react-based-app-with-electron/
 * Quick way to visualize differences between profile changes without having to rely on just descriptions in text
 * Library of parts (motors, sensors, boards, fans, thingiverse parts, etc) with sensible default values for them? AKA known starting configuration values to try out. For example. I'm adding an SN-04 sensor to the stock Anet A8 using this mount from thingiverse. I know the offset from the hotend is X,Y,Z and I need to enable Flags A,B,C to enable auto bed leveling.
 * Detecting changes that would result in a *Having a Bad Time*(TM) due to conflicts or things that will obviously break the machine.
+* Wizard like interface for tuning things like motors or z offsets that can write the changes to the eeprom.
 
 
 ### Limitations and Challenges
+* Including the parts catalog/mods idea might make this tool more about 3d printer hardware management itself rather than just the firmware, but fits the scope of what the tool should help users with.
 * Certain types of changes will be inherently difficult to automate. Especially ones around new features to Marlin due to code refactoring. Not all things about a configuration will be wizard-able in a nice way. Hence the need for the ability to access the configuration.h and configuration_adv.h directly if need be. At a certain point the changes you want to stock Marlin might require you to know so much about the internals that this tool will have diminishing returns.
 * If we expose the part library or make it something that people can contribute to directly, how do we make sure that the *known* values don't end up breaking people's printers and angering people? I'm not an EE, and don't have the skills to know what's a bad value or not.
 
